@@ -1,3 +1,8 @@
+//SPDX -License -Identifer: GPL-2.0
+/*
+ *Copyright (c) 2020 KAITO. All right reserved
+ */
+
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
