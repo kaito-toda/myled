@@ -7,7 +7,7 @@ sudo insmod myled.ko
 sudo chmod 666 /dev/myled0  
 
 で準備完了。  
-echo 1 > dev/myled0　　点灯  
+'echo 1 > dev/myled0'　　点灯  
 echo 2 > dev/myled0　　点滅  
 echo 0 > dev/myled0　　消灯  
 となっています。
